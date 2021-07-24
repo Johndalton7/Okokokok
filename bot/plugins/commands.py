@@ -46,7 +46,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = "🔰👉 കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ Group ൽ ജോയിൻ ചെയ്യൂ🌟\n\n༺ ──•◈•─ ─•◈•──༻ \nChannel🌐➧ @MF_MOVIES1Group   \n👥➧ @MF_CHATGROUP",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
