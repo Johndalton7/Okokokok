@@ -65,12 +65,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('⚠️ JOIN', url='https://t.me/MF_MOVIES1'),
+        InlineKeyboardButton('🕵 CREATOR', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('♻️ GROUP', url='https://t.me/MF_CHATGROUP')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💡HELP', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
