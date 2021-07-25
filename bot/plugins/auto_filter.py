@@ -210,7 +210,7 @@ async def auto_filter(bot, update):
                 chat_id = update.chat.id,
                 text=f"""Found {(len_results)} Results For Your Query: <code>{query}</code>
 
-താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 3 മിനിറ്റ് മാത്രം
+<b>താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 3 മിനിറ്റ് മാത്രം</b>
 """,
                 reply_markup=reply_markup,
                 parse_mode="html",
