@@ -4,7 +4,8 @@
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from bot import Translation, LOGGER # pylint: disable=import-error
+from pyrogram.errors import UserNotParticipant
+from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
 
 db = Database()
@@ -35,7 +36,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'CHANNEL🤪', url="https://t.me/MF_MOVIES1"
                                 )
                         ]
                     ]
@@ -48,7 +49,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('⚠️ JOIN', url='https://t.me/MF_MOVIES1'),
-        InlineKeyboardButton('🕵 CREATOR', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('SOURCE CODE', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('♻️ GROUP', url='https://t.me/MF_CHATGROUP')
     ],[
