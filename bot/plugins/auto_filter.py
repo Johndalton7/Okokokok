@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🔘 JOIN OUR MAIN CHANNEL🔘", url="https://t.me/MF_MOVIES1")
+                    InlineKeyboardButton("📌 JOIN OUR MAIN CHANNEL", url="https://t.me/MF_MOVIES1")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -152,7 +152,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("GO TO NEXT PAGE", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
